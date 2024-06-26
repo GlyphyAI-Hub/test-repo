@@ -26,7 +26,7 @@ app.get(
 
       // Set up git configuration
       await git.addConfig("user.name", "glyphyai-hub[bot]");
-      await git.addConfig("user.email", "team@glyphy.ai");
+      await git.addConfig("user.email", "173952421+glyphyai-hub[bot]@users.noreply.github.com");
 
       // Perform git operations
       await git.add("./*");
